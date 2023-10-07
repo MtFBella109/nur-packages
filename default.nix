@@ -6,7 +6,7 @@ rec {
 
   catppuccin-latte = pkgs.callPackage ./pkgs/sddm-themes/catppuccin-latte { };
 
-  catppuccin-macchiato = pkgs.callPackage ./pkgs/sddm-themes/catppucin-macchiato { };
+  catppuccin-macchiato = pkgs.callPackage ./pkgs/sddm-themes/catppuccin-macchiato { };
 
   catppuccin-mocha = pkgs.callPackage ./pkgs/sddm-themes/catppuccin-mocha { };
 
