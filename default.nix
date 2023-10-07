@@ -10,4 +10,6 @@ rec {
 
   catppuccin-mocha = pkgs.callPackage ./pkgs/sddm-themes/catppuccin-mocha { };
 
+  inherit (pkgs.callPackages ./pkgs/node-packages { }) nativefier;
+
 }
